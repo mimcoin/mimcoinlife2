@@ -4,28 +4,43 @@ body {
   color: gold;
   font-family: Arial, sans-serif;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
 }
 .hero h1 {
-  font-size: 3em;
+  font-size: 3.2em;
   margin-top: 20px;
-  color: #e5e4e2;
+  color: #e5e4e2; /* platinum */
+}
+.hero p {
+  font-size: 1.4em;
+  margin-top: 10px;
 }
 .section {
-  margin-top: 40px;
+  margin-top: 50px;
+}
+.section h2 {
+  color: #e5e4e2; /* platinum */
+  font-size: 2em;
+  margin-bottom: 15px;
 }
 ul {
   list-style: none;
   padding: 0;
+  font-size: 1.2em;
 }
 ul li {
-  margin: 5px 0;
+  margin: 8px 0;
 }
 .button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 12px 25px;
+  font-size: 1.2em;
   color: black;
   background: linear-gradient(45deg, gold, #e5e4e2);
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+.button:hover {
+  background: linear-gradient(45deg, #e5e4e2, gold);
 }
