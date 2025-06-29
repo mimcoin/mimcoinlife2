@@ -2,47 +2,40 @@
 body {
   background: black;
   color: gold;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: 'Cinzel', serif;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
-header.hero {
-  padding: 40px 20px 20px;
+.hero, .section {
+  padding: 40px 20px;
 }
-.logo {
-  width: 100px;
+.hero img.header-img, .bar-scene img.bar-img, .buy img.logo-img {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 12px;
   margin-bottom: 20px;
 }
 h1 {
-  font-size: 2.5em;
+  font-size: 2.8em;
   color: #e5e4e2;
 }
 h2 {
   color: #e5e4e2;
-  margin-top: 40px;
-}
-.section {
-  padding: 30px 20px;
-}
-.feature-img {
-  width: 80%;
-  max-width: 600px;
-  border-radius: 12px;
-  margin: 20px 0;
+  margin-top: 30px;
 }
 ul {
   list-style: none;
   padding: 0;
+  font-size: 1.2em;
 }
 ul li {
   margin: 8px 0;
-  font-size: 1.2em;
 }
 .button {
   display: inline-block;
   margin-top: 15px;
-  padding: 12px 25px;
+  padding: 12px 30px;
   font-size: 1.2em;
   background: linear-gradient(45deg, gold, #e5e4e2);
   color: black;
